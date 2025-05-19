@@ -8,7 +8,8 @@ int main()
 	printf("3. B.Tech AIML\n");
         printf("4. B.Tech ECE\n");
         printf("5. B.Tech Mechanical\n");
-        printf("6. Exit\n");
+	printf("6. B.Tech CSE(AI&ML)\n");
+        printf("7. Exit\n");
 	printf("Select your desired branch of engineering");
 	scanf("%d",choose);
 
@@ -29,6 +30,8 @@ int main()
             printf("You have selected B.Tech Mechanical\n");
             return 0;
 	case 6:
+	    printf("You have selected B.Tech CSE(AI&ML)\n");
+	case 7:
 	    printf("Exit");
         default:
             printf("Invalid choice. Try again.\n");
